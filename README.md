@@ -1,5 +1,3 @@
-Understood. Here's the revised documentation with Markdown formatting for GitHub's README.md file:
-
 # Todo List Web App Documentation
 
 ## Overview
