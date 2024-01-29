@@ -1,5 +1,3 @@
-Sure, I can help you improve the clarity and readability of your documentation. Here's a revised version:
-
 # Todo List Web App Documentation
 
 ## Introduction
@@ -13,10 +11,12 @@ The application leverages the following dependencies:
 ## Setting Up the Application
 To set up the application, navigate to the project directory, install the necessary packages, and start the server. Here are the commands you need to run:
 
+
 ```shell
 cd Todo-List-Web-App
 npm install
-node index.js
+echo PORT=3000 > .env
+node app.js
 ```
 Once the server is running, you can access the application at http://localhost:3000.
 
@@ -29,7 +29,7 @@ The application has three main routes:
 
 3. **POST /delete**: This route manages the deletion of tasks. The index of the task to be removed is obtained from the request body.
 
+4. **POST /check**: This route toggles the checked status of a task. The index of the task to be updated is obtained from the request body.
+
 ## Starting the Server
 After setting up the application and defining the routes, the server begins listening on the specified port (in this case, port 3000).
-
-Please note that this is a basic guide. For more complex applications, consider including additional sections like error handling procedures, database integration instructions, and so on.
