@@ -8,6 +8,7 @@
 
 .form-control {
   z-index: 3;
+  box-shadow: black 10px 10px 42px -12px
 }
 
 .btn {
