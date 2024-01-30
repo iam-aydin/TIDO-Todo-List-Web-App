@@ -19,4 +19,4 @@ app.post("/tasks", (req, res) => saveTask(req, res, tasks));
 app.post("/delete", (req, res) => deleteTask(req, res, tasks));
 app.post("/check", (req, res) => checkTask(req, res, tasks));
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
