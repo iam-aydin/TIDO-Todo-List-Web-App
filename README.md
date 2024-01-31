@@ -13,7 +13,7 @@ To set up the application, navigate to the project directory, install the necess
 
 
 ```shell
-cd Todo-List-Web-App
+cd TIDO-Todo-List-Web-App
 npm install
 echo PORT=3000 > .env
 node app.js
