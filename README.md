@@ -11,6 +11,10 @@ The application leverages the following dependencies:
 ## Setting Up the Application
 To set up the application, navigate to the project directory, install the necessary packages, and start the server. Here are the commands you need to run:
 
+Also start mongod before running :
+```shell
+mongod
+```
 
 ```shell
 cd TIDO-Todo-List-Web-App
