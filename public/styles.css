@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 .container {
   width: 1140px;
 }
@@ -8,7 +9,7 @@
 
 .form-control {
   z-index: 3;
-  box-shadow: black 10px 10px 42px -12px
+  box-shadow: black 10px 10px 42px -12px;
 }
 
 .btn {
@@ -165,6 +166,7 @@ span {
 
 .strikeout {
   text-decoration: line-through;
+  color: rgb(49, 124, 89);
 }
 
 .task-info {
@@ -186,8 +188,32 @@ span {
     width: 800px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .container {
-    width: 280px;
+    width: 480px;
   }
 }
+@media (max-width: 480px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.mygithub {
+  display: inline-block;
+  text-align: center;
+  color: #000; /* Black text color */
+  line-height: 1.5; /* Improved line height for readability */
+  border-radius: 0.5em; /* Softened border radius */
+  position: relative;
+  min-width: 10px;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  transition: color 0.1s ease;
+ }
+ 
+ .mygithub:hover {
+  color: red; /* Text color remains black on hover */
+ }
