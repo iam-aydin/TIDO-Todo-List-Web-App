@@ -8,6 +8,8 @@ const port = process.env.PORT;
 const fs = require('fs');
 const csv = require('fast-csv');
 const langData = {};
+const mongodb_atlas_password = process.env.atlas_password;
+const uri = "mongodb+srv://aydin:"+ mongodb_atlas_password +"@cluster0.mi7cyq5.mongodb.net";
 
 // Parse the CSV file and store the records in the langData object
 fs.createReadStream('languages.csv')
@@ -24,13 +26,14 @@ fs.createReadStream('languages.csv')
  .on('end', () => {
     console.log('CSV data parsed successfully');
  });
+ 
   
 /* Example of tasks array's data :
    { id: 1, task: "Task 1", isChecked: false } */
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/tidoListDB")
+  .connect( uri + "/tidoListDB")
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Failed to connect to MongoDB", err));
 
