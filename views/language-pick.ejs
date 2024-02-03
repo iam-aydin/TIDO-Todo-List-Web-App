@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Picker</title>
+    <style>
+        .language-container {
+            display: flex;
+            justify-content: space-around; /* Adjust spacing between languages */
+            flex-wrap: wrap; /* Allow wrapping to multiple lines if necessary */
+        }
+        .language-item {
+            margin: 5px; /* Space around each language item */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .language-item a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select Your Language</h1>
+    <div class="language-container">
+        <% Object.keys(langData).forEach(function(shortLang) { %>
+            <div class="language-item">
+                <a href="/<%= shortLang %>">
+                    <%= langData[shortLang].Flag %> <%= langData[shortLang].Language %>
+                </a>
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>

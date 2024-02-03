@@ -3,15 +3,11 @@ let nextId = 1;
 
 function reDirect(req, res) {
   // Extract the referer from the request headers, defaulting to '/' if not present
-  const { referer = '/' } = req.headers;
-   
-  // Determine the redirect path based on whether the referer includes '/fa'
-  const redirectPath = referer.includes('/fa') ? '/fa' : '/';
-   
+  const { referer = "/" } = req.headers;
+
   // Send a 302 redirect response to the client with the determined path
-  res.redirect(302, redirectPath);
- }
- 
+  res.redirect(302, referer);
+}
 
 function saveTask(req, res, Task) {
   let new_task = new Task({
