@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 .container {
   width: 1140px;
 }
@@ -12,12 +12,12 @@
   box-shadow: black 10px 10px 42px -12px;
 }
 
-.btn {
+.addTaskBtn {
   background-color: gold;
   color: black;
 }
 
-.btn:hover {
+.addTaskBtn:hover {
   background: linear-gradient(to left, rgb(208, 255, 199), rgb(255, 233, 108));
   color: black;
 }
@@ -212,8 +212,14 @@ span {
   font-optical-sizing: auto;
   font-weight: 500;
   transition: color 0.1s ease;
- }
- 
- .mygithub:hover {
+}
+
+.mygithub:hover {
   color: red; /* Text color remains black on hover */
- }
+}
+
+.lang-class {
+  color: darkviolet;
+  font-weight: 700;
+  text-decoration: none;
+} 

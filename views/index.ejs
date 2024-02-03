@@ -26,11 +26,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="container mt-5">
-      <h1><strong>TODO</strong></h1>
+      
+      <h1><strong><%= language.TODO %></strong></h1>
       <form action="/Tasks" method="POST" class="mb-3">
         <div class="input-group">
           <input
@@ -38,12 +40,12 @@
             name="addTask"
             id="addTask"
             class="form-control"
-            placeholder="Which tasks will you start with first?"
+            placeholder="<%= language.Think %>"
             required
             autocomplete="off"
             title="What is in your mind?"
           />
-          <button type="submit" class="btn button">
+          <button type="submit" class="btn addTaskBtn button">
             <i class="bi bi-patch-plus"></i>
           </button>
         </div>
@@ -103,10 +105,13 @@
     <footer>
       <div class="container">
         <p>
-          Made With ❤️ By
+          <%= language.MadeBy %>
           <a href="https://github.com/iam-aydin/" class="mygithub">
             AyDin VM
           </a>
+          <br><a class="lang-class" href="/language/pick"> <%= language.Language %> <i class="bi bi-globe"></i></a>
+          
+          <p></p>
         </p>
       </div>
     </footer>
