@@ -1,8 +1,8 @@
 # Todo List Web App Documentation
-<div align="center">
+<h1 align="center">
   <img src="/TIDO-Todo-List-Web-App/img/TIDO[1].png" alt="subfinder" width="200px">
   <br>
-</div>
+</h1>
 ## Introduction
 This document provides an overview of a simple todo list web application developed using Express.js, a widely-used Node.js framework. The application enables users to create tasks, add them to a list, and remove them as needed.
 
