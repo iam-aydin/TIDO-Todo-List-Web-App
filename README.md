@@ -6,7 +6,7 @@
 </div>
 <h1> Introduction </h1>
 This document provides an overview of a simple todo list web application developed using Express.js, a widely-used Node.js framework. The application enables users to create tasks, add them to a list, and remove them as needed.
-</div>
+
 
 <h1> Key Dependencies </h1>
 The application leverages the following dependencies:
@@ -44,3 +44,4 @@ The application has three main routes:
 After setting up the application and defining the routes, the server begins listening on the specified port (in this case, port 3000).
 
 Please note that this is a basic guide. For more complex applications, consider including additional sections like error handling procedures, database integration instructions, and so on.
+</div>
