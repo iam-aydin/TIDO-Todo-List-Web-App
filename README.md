@@ -1,4 +1,4 @@
-# Todo List Web App Documentation
+# TIDO - Todo List Web App Documentation
 <div align="center">
   <img src="/img/TIDO[1].png" alt="preview" width="600px">
   <br>
