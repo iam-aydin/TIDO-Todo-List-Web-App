@@ -11,8 +11,8 @@ This document provides an overview of a simple todo list web application develop
 
 <h1> Key Dependencies </h1>
 The application leverages the following dependencies:
-- **Express.js**: A robust web application framework for Node.js.
-- **Body-parser**: A middleware tool used to parse the body of incoming requests and expose it on `req.body`.
+**Express.js**: A robust web application framework for Node.js.
+**Body-parser**: A middleware tool used to parse the body of incoming requests and expose it on `req.body`.
 
 <h1> Setting Up the Application </h1>
 To set up the application, navigate to the project directory, install the necessary packages, and start the server. Here are the commands you need to run:
