@@ -1,3 +1,8 @@
+<style>
+  h1{
+    font-size:123px;
+  }
+</style>
 <h1> TIDO - Todo List Web App Documentation </h1>
 <div align="center">
   <img src="/img/TIDO[1].png" alt="preview" width="600px">
