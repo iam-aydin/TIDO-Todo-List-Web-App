@@ -1,22 +1,17 @@
-<style>
-  h1{
-    font-size:123px;
-  }
-</style>
 <h1> TIDO - Todo List Web App Documentation </h1>
 <div align="center">
   <img src="/img/TIDO[1].png" alt="preview" width="600px">
   <br>
 </div>
-## Introduction
+<h1> Introduction </h1>
 This document provides an overview of a simple todo list web application developed using Express.js, a widely-used Node.js framework. The application enables users to create tasks, add them to a list, and remove them as needed.
 
-## Key Dependencies
+<h1> Key Dependencies </h1>
 The application leverages the following dependencies:
 - **Express.js**: A robust web application framework for Node.js.
 - **Body-parser**: A middleware tool used to parse the body of incoming requests and expose it on `req.body`.
 
-## Setting Up the Application
+<h1> Setting Up the Application </h1>
 To set up the application, navigate to the project directory, install the necessary packages, and start the server. Here are the commands you need to run:
 
 Also start mongod before running :
@@ -32,7 +27,7 @@ node app.js
 ```
 Once the server is running, you can access the application at http://localhost:3000.
 
-## Understanding the Routes
+<h1> Understanding the Routes </h1>
 The application has three main routes:
 
 1. **GET /**: This route displays the index page, which includes the current list of tasks.
