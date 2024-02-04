@@ -1,6 +1,6 @@
 # Todo List Web App Documentation
 <h1 align="center">
-  <img src="/TIDO-Todo-List-Web-App/img/TIDO[1].png" alt="subfinder" width="200px">
+  <img src="/img/TIDO[1].png" alt="preview" width="200px">
   <br>
 </h1>
 ## Introduction
